@@ -1,0 +1,22 @@
+[Adblock Plus]
+! Title: Block Google Search Content
+! Version: 2021.1214.04
+! ----------------------------------------------------------------------
+! 基本過濾結構
+! google.*##div.g:has(div[data-hveid] a[href*="不想看到的域名"])
+! ----------------------------------------------------------------------
+! 抄先生
+google.*##div.g:has(div[data-hveid] a[href*="mrmad.com.tw"]) 
+! 3C界囧星人 aka 低配版朱學恆
+google.*##div.g:has(div[data-hveid] a[href*="kocpc.com.tw"]) 
+! 阿姨
+google.*##div.g:has(div[data-hveid] a[href*="aotter.net"]) 
+! 婚姻更生人
+google.*##div.g:has(div[data-hveid] a[href*="ahui3c.com"])
+! 低能卡
+google.*##div.g:has(div[data-hveid] a[href*="dcard.tw"])
+! 旺中
+google.*##div.g:has(div[data-hveid] a[href*="chinatimes.com"])
+google.*##div.g:has(div[data-hveid] a[href*="ctitv.com.tw"])
+google.*##div.g:has(div[data-hveid] a[href*="cnews.com.tw"])
+google.*##div.g:has(div[data-hveid] a[href*="ctwant.com"])
